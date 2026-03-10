@@ -19,6 +19,14 @@ export default defineConfig({
             link: "/json-schema/",
             activeMatch: "/json-schema/",
           },
+          {
+            text: "YAML",
+            link: "/yaml",
+          },
+          {
+            text: "TOML",
+            link: "/toml",
+          },
           { text: "Docker", link: "/docker/" },
         ],
       },
