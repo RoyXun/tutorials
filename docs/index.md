@@ -4,22 +4,21 @@ layout: home
 
 hero:
   name: "懒人教程"
-  text: "我的学习笔记"
-  tagline: "记录个人学习的知识点"
+  text: "个人自用学习教程"
+  tagline: "好记性不如烂笔头"
   actions:
     - theme: brand
-      text: 教程
+      text: Go
       link: /json-schema
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: 自用为主
+    details: 由官方文档精简而来，全程自用为主，不保熟。
+  - title: 辅助学习
+    details: 沉淀学习轨迹，助力高效学习
+    
 ---
 
