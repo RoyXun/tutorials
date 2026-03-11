@@ -315,7 +315,7 @@ integers3 = [
 ]
 ```
 
-## 表
+## 表 {#table}
 表也叫做哈希表或字典，是键值对的集合。
 ```toml
 [table]
@@ -378,7 +378,7 @@ apple = "red"
 [fruit.apple]
 texture = "smooth"
 ```
-## 内联表
+## 内联表 {#inline-table}
 内联表被完整的定义在`{`和`}`中，括号中可包含0或多个逗号分隔的键值对。
 ::: code-group 
 ```toml [inline table]
@@ -430,7 +430,7 @@ type = { name = "Nail" }
 type.name = "Nail"
 # type = { edible = false }  # INVALID
 ```
-## 表数组
+## 表数组 {#array-of-table}
 ::: code-group
 ```toml
 [[product]]
