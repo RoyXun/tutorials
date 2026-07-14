@@ -17,8 +17,8 @@ hero:
 features:
   - title: 易读易懂
     details: 精简自官方文档，避免拖沓冗长
-  - title: 自用为主
-    details: 自用为主，不保熟。
+  - title: 主观的
+    details: 个人理解，自用为主，不保熟。
   - title: 辅助学习
     details: 沉淀学习轨迹，助力高效学习
     

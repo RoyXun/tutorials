@@ -8,6 +8,11 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/tutorials/favicon.ico" }]],
   base: "/tutorials/",
   themeConfig: {
+    lastUpdated: {
+      formatOptions: {
+        dateStyle: "short",
+      },
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
@@ -34,6 +39,10 @@ export default defineConfig({
           // { text: "Docker(WIP)", link: "/docker/" },
           // { text: "Design Patterns", link: "/design-patterns/" },
         ],
+      },
+      {
+        text: "Blog",
+        link: "https://royxun.github.io/blog/",
       },
     ],
 
