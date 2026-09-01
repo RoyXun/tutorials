@@ -21,36 +21,36 @@ YAML 支持 3种基本类型：
 - **映射**使用**冒号**+**空格**(`: `)标记键值对
   ::: code-group
 
-```yaml
-hr: 65 # Home runs
-avg: 0.278 # Batting average
-rbi: 147 # Runs Batted In
-```
+  ```yaml
+  hr: 65 # Home runs
+  avg: 0.278 # Batting average
+  rbi: 147 # Runs Batted In
+  ```
 
-```json
-{
-  "hr": 65,
-  "avg": 0.278,
-  "rbi": 147
-}
-```
+  ```json
+  {
+    "hr": 65,
+    "avg": 0.278,
+    "rbi": 147
+  }
+  ```
 
-:::
+  :::
 
 - **序列**使用**短横杠**+**空格**(`- `)标识每个条目
   ::: code-group
 
-```yaml [yaml]
-- Mark McGwire
-- Sammy Sosa
-- Ken Griffey
-```
+  ```yaml [yaml]
+  - Mark McGwire
+  - Sammy Sosa
+  - Ken Griffey
+  ```
 
-```json
-["Mark McGwire", "Sammy Sosa", "Ken Griffey"]
-```
+  ```json
+  ["Mark McGwire", "Sammy Sosa", "Ken Griffey"]
+  ```
 
-:::
+  :::
 
 - 使用三条横杠(`---`)分隔指令和文档内容，如果没有指令，也表示文档开始。使用三个点(`...`)表示文档结束。
 
