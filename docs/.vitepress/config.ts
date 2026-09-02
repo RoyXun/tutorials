@@ -33,7 +33,11 @@ export default defineConfig({
             link: "/toml",
           },
           {
-            text: "MongoDB",
+            text: "JWT",
+            link: "/jwt",
+          },
+          {
+            text: "MongoDB(WIP)",
             link: "/mongodb/",
             activeMatch: "/mongodb/",
           },
